@@ -182,8 +182,6 @@ class SensorMapper:
         elif sensor_type.lower() in ("wh69", "weather_station_wh69") or "temp & humidity & solar & wind & rain" in sensor_type.lower():
             # WH69 7-in-1 outdoor sensor array (uses hex IDs in common_list)
             keys.extend([
-                "3",  # Feels like Temperature
-                "5",  # Vapor Pressure Deficit
                 "0x02",  # Temperature
                 "0x03",  # Dew point temperature
                 "0x07",  # Humidity
