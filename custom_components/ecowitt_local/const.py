@@ -219,8 +219,8 @@ SENSOR_TYPES: Final = {
         "device_class": "irradiance"
     },
     "uv": {
-        "name": "UV Index uv",
-        "unit": "UV Index uv",
+        "name": "UV Index",
+        "unit": "UV Index",
         "icon": "mdi:weather-sunny-alert"
     },
 
@@ -339,7 +339,7 @@ SENSOR_TYPES: Final = {
         "device_class": "irradiance"
     },
     "0x17": {
-        "name": "UV index",
+        "name": "UV index uv",
         "unit": "UV Index",
         "icon": "mdi:weather-sunny-alert"
     },
