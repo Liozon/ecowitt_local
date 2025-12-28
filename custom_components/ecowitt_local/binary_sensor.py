@@ -244,7 +244,7 @@ class EcowittSensorOnlineBinarySensor(
             "wh57": "Lightning Sensor",
             "wh40": "Rain Sensor",
             "wh68": "Weather Station",
-            "wh69": "Weather Station",
+            "wh69": "7 in 1 weather Station",
             "soil": "Soil Moisture Sensor",
             "temp_hum": "Temperature/Humidity Sensor",
             "pm25": "PM2.5 Air Quality Sensor",
