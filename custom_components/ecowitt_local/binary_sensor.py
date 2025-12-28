@@ -262,7 +262,7 @@ class EcowittSensorOnlineBinarySensor(
         
         outdoor_types = {
             "wh51", "wh41", "wh55", "wh57", "wh40", "wh68", "wh69",
-            "soil", "pm25", "leak", "lightning", "rain", "weather_station", "weather_station"
+            "soil", "pm25", "leak", "lightning", "rain", "weather_station", "weather_station_wh69"
         }
         
         return sensor_type in outdoor_types
