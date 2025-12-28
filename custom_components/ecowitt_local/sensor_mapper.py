@@ -179,7 +179,7 @@ class SensorMapper:
                 "uv",
                 "wh68batt",
             ])
-        elif sensor_type.lower() in ("wh69", "weather_station_wh69"):
+        elif sensor_type.lower() in ("wh69", "weather_station_wh69") or "weather_station_wh69" in sensor_type.lower():
             # WH69 7-in-1 outdoor sensor array (uses hex IDs in common_list)
             keys.extend([
                 "3",  # Feels like Temperature
