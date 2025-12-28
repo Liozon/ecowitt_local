@@ -182,15 +182,17 @@ class SensorMapper:
         elif sensor_type.lower() in ("wh69", "weather_station_wh69"):
             # WH69 7-in-1 outdoor sensor array (uses hex IDs in common_list)
             keys.extend([
+                "3",  # Feels like Temperature
+                "5",  # Vapor Pressure Deficit
                 "0x02",  # Temperature
-                "0x03",  # Temperature (alternate)
+                "0x03",  # Dew point temperature
                 "0x07",  # Humidity
                 "0x0B",  # Wind speed
-                "0x0C",  # Wind speed (alternate)
-                "0x19",  # Wind gust
+                "0x0C",  # Gust speed
+                "0x19",  # Wind max day
                 "0x0A",  # Wind direction
-                "0x6D",  # Wind direction (alternate)
-                "0x15",  # Solar radiation
+                "0x6D",  # 10 minutes average wind direction
+                "0x15",  # Solar irradiance
                 "0x17",  # UV index
                 "0x0D",  # Rain event
                 "0x0E",  # Rain rate
@@ -208,11 +210,11 @@ class SensorMapper:
                 "0x03",  # Temperature (alternate)
                 "0x07",  # Humidity
                 "0x0B",  # Wind speed
-                "0x0C",  # Wind speed (alternate)
-                "0x19",  # Wind gust
+                "0x0C",  # Gust speed
+                "0x19",  # Wind max day
                 "0x0A",  # Wind direction
-                "0x6D",  # Wind direction (alternate)
-                "0x15",  # Solar radiation
+                "0x6D",  # 10 minutes average wind direction
+                "0x15",  # Solar irradiance
                 "0x17",  # UV index
                 "0x0D",  # Rain event
                 "0x0E",  # Rain rate

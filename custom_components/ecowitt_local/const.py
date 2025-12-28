@@ -294,93 +294,93 @@ SENSOR_TYPES: Final = {
     
     # WH69 7-in-1 Weather Station hex ID sensors
     "0x02": {
-        "name": "Outdoor Temperature",
+        "name": "Outdoor temperature",
         "unit": "°C",
         "device_class": "temperature"
     },
     "0x03": {
-        "name": "Dewpoint Temperature", 
+        "name": "Dew point temperature", 
         "unit": "°C",
         "device_class": "temperature"
     },
     "0x07": {
-        "name": "Outdoor Humidity",
+        "name": "Outdoor humidity",
         "unit": "%",
         "device_class": "humidity"
     },
     "0x0B": {
-        "name": "Wind Speed",
+        "name": "Wind speed",
         "unit": "m/s",
         "device_class": "wind_speed"
     },
     "0x0C": {
-        "name": "Wind Gust",
+        "name": "Gust speed",
         "unit": "m/s", 
         "device_class": "wind_speed"
     },
     "0x19": {
-        "name": "Max Daily Gust",
+        "name": "Max daily gust",
         "unit": "m/s",
         "device_class": "wind_speed"
     },
     "0x0A": {
-        "name": "Wind Direction",
+        "name": "Wind direction",
         "unit": "°",
         "icon": "mdi:compass"
     },
     "0x6D": {
-        "name": "Wind Direction Avg",
+        "name": "Average wind direction (last 10 minutes)",
         "unit": "°", 
         "icon": "mdi:compass"
     },
     "0x15": {
-        "name": "Solar Radiation",
+        "name": "Solar irradiance",
         "unit": "W/m²",
         "device_class": "irradiance"
     },
     "0x17": {
-        "name": "UV Index",
+        "name": "UV index",
         "unit": "UV Index",
         "icon": "mdi:weather-sunny-alert"
     },
     "0x0D": {
-        "name": "Rain Event",
+        "name": "Rain event",
         "unit": "mm",
         "device_class": "precipitation",
         "state_class": "total"
     },
     "0x0E": {
-        "name": "Rain Rate", 
+        "name": "Rain rate", 
         "unit": "mm/Hr",
         "device_class": "precipitation_intensity",
         "state_class": "measurement"
     },
     "0x7C": {
-        "name": "Daily Rain",
+        "name": "Daily rain",
         "unit": "mm",
         "device_class": "precipitation",
         "state_class": "total_increasing"
     },
     "0x10": {
-        "name": "Weekly Rain",
+        "name": "Weekly rain",
         "unit": "mm", 
         "device_class": "precipitation",
         "state_class": "total_increasing"
     },
     "0x11": {
-        "name": "Monthly Rain",
+        "name": "Monthly rain",
         "unit": "mm",
         "device_class": "precipitation",
         "state_class": "total_increasing"
     },
     "0x12": {
-        "name": "Yearly Rain",
+        "name": "Yearly rain",
         "unit": "mm",
         "device_class": "precipitation",
         "state_class": "total_increasing"
     },
     "0x13": {
-        "name": "Total Rain",
+        "name": "Total rain",
         "unit": "mm",
         "device_class": "precipitation",
         "state_class": "total_increasing"
